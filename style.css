@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(13, 141, 113);
+    color: white;
+    font-family: "Bree Serif", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: rgb(3, 114, 90);
+    color: rgb(156, 255, 233);
+    font-family: "Bree Serif", serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
